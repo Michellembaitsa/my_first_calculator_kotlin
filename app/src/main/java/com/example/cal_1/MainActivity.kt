@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             }else{
                 var input1=etNum1.text.toString().toInt()
                 var input2=etNum2.text.toString().toInt()
-                var sum=input1-input2
+                var sum=input1+input2
                 results.text="${sum}"
 
         }}
@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
             }else{
                 var input1=etNum1.text.toString().toInt()
                 var input2=etNum2.text.toString().toInt()
-                var divide=input1-input2
+                var divide=input1/input2
                 results.text="${divide}"
 
             }}
@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
             }else{
                 var input1=etNum1.text.toString().toInt()
                 var input2=etNum2.text.toString().toInt()
-                var modulus=input1-input2
+                var modulus=input1%input2
                 results.text="${modulus}"
 
             }
